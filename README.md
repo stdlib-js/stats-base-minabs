@@ -167,6 +167,26 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dminabs`][@stdlib/stats/base/dminabs]: calculate the minimum absolute value of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/maxabs`][@stdlib/stats/base/maxabs]: calculate the maximum absolute value of a strided array.
+-   [`@stdlib/stats/base/min`][@stdlib/stats/base/min]: calculate the minimum value of a strided array.
+-   [`@stdlib/stats/base/nanminabs`][@stdlib/stats/base/nanminabs]: calculate the minimum absolute value of a strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/sminabs`][@stdlib/stats/base/sminabs]: calculate the minimum absolute value of a single-precision floating-point strided array.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -226,9 +246,19 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dminabs]: https://github.com/stdlib-js/stats-base-dminabs
 
+[@stdlib/stats/base/maxabs]: https://github.com/stdlib-js/stats-base-maxabs
+
+[@stdlib/stats/base/min]: https://github.com/stdlib-js/stats-base-min
+
+[@stdlib/stats/base/nanminabs]: https://github.com/stdlib-js/stats-base-nanminabs
+
 [@stdlib/stats/base/sminabs]: https://github.com/stdlib-js/stats-base-sminabs
+
+<!-- </related-links> -->
 
 </section>
 
