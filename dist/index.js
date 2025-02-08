@@ -1,9 +1,10 @@
-"use strict";var s=function(a,r){return function(){return r||a((r={exports:{}}).exports,r),r.exports}};var b=s(function(z,o){
-var x=require('@stdlib/math-base-assert-is-nan/dist'),f=require('@stdlib/math-base-special-abs/dist');function O(a,r,u){var t,e,i,n;if(a<=0)return NaN;if(a===1||u===0)return f(r[0]);for(u<0?e=(1-a)*u:e=0,t=f(r[e]),n=1;n<a;n++){if(e+=u,i=f(r[e]),x(i))return i;i<t&&(t=i)}return t}o.exports=O
-});var m=s(function(A,c){
-var R=require('@stdlib/math-base-assert-is-nan/dist'),q=require('@stdlib/math-base-special-abs/dist');function g(a,r,u,t){var e,i,n,v;if(a<=0)return NaN;if(a===1||u===0)return q(r[t]);for(i=t,e=q(r[i]),v=1;v<a;v++){if(i+=u,n=q(r[i]),R(n))return n;n<e&&(e=n)}return e}c.exports=g
-});var l=s(function(B,y){
-var h=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),p=b(),j=m();h(p,"ndarray",j);y.exports=p
-});var k=l();module.exports=k;
+"use strict";var o=function(a,r){return function(){return r||a((r={exports:{}}).exports,r),r.exports}};var y=o(function(D,m){
+var g=require('@stdlib/math-base-assert-is-nan/dist'),q=require('@stdlib/math-base-special-abs/dist');function j(a,r,i,s){var n,u,v,e,t,c;if(n=r.data,u=r.accessors[0],a===1||i===0)return q(u(n,s));for(e=s,v=q(u(n,e)),c=1;c<a;c++){if(e+=i,t=q(u(n,e)),g(t))return t;t<v&&(v=t)}return v}m.exports=j
+});var b=o(function(E,p){
+var k=require('@stdlib/math-base-assert-is-nan/dist'),f=require('@stdlib/math-base-special-abs/dist'),O=require('@stdlib/array-base-arraylike2object/dist'),P=y();function R(a,r,i,s){var n,u,v,e,t;if(a<=0)return NaN;if(v=O(r),v.accessorProtocol)return P(a,v,i,s);if(a===1||i===0)return f(r[s]);for(u=s,n=f(r[u]),t=1;t<a;t++){if(u+=i,e=f(r[u]),k(e))return e;e<n&&(n=e)}return n}p.exports=R
+});var x=o(function(F,l){
+var h=require('@stdlib/strided-base-stride2offset/dist'),w=b();function z(a,r,i){return w(a,r,i,h(a,i))}l.exports=z
+});var A=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),d=x(),B=b();A(d,"ndarray",B);module.exports=d;
+/** @license Apache-2.0 */
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
