@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-06-09)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`fe07c96`](https://github.com/stdlib-js/stdlib/commit/fe07c963d8c689e0102898f8055b1adb08803cbd) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`816adc5`](https://github.com/stdlib-js/stdlib/commit/816adc5f64961310698b850e2b8bb4d472fa9127) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b620840`](https://github.com/stdlib-js/stdlib/commit/b620840cb203f071838abc1ad3d41700f7547d9f) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`ddf7d46`](https://github.com/stdlib-js/stdlib/commit/ddf7d466d98d325a74f5182cdd6bceea602c78be) - **feat:** add support for accessor arrays and refactor `stats/base/minabs` [(#5085)](https://github.com/stdlib-js/stdlib/pull/5085) _(by Aayush Khanna)_
@@ -36,9 +37,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Gururaj Gurram
 
 </section>
 
